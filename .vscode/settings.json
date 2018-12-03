@@ -1,0 +1,52 @@
+{
+     // The eslint options object to provide args normally passed to eslint when executed from a command line (see http://eslint.org/docs/developer-guide/nodejs-api#cliengine).
+  "eslint.options": {},
+
+
+
+
+
+
+  // Determina qual editor de configurações será usado como padrão
+  //  - ui: Use o editor de configurações de interface do usuário.
+  //  - json: Usar o editor de arquivos JSON.
+  "workbench.settings.editor": "ui",
+
+  // Controla o comportamento do editor de configurações do Sumário durante a pesquisa.
+  //  - hide: Ocultar o Sumário durante a pesquisa.
+  //  - filter: Filtre o Sumário para apenas as categorias que possuem as configurações correspondentes. Clicando em uma categoria filtrará os resultados para essa categoria.
+  "workbench.settings.settingsSearchTocBehavior": "filter",
+
+  // Controla se abrir configurações keybinding também abre um editor mostrando todas as combinações de teclas padrão.
+  "workbench.settings.openDefaultKeybindings": true,
+
+  // Controla se as configurações de abertura também abre um editor mostrando todas as configurações padrão.
+  "workbench.settings.openDefaultSettings": true,
+
+  // Controla se deve habilitar o modo de pesquisa de linguagem natural para as configurações. A pesquisa de linguagem natural é fornecida por um serviço online da Microsoft.
+  "workbench.settings.enableNaturalLanguageSearch": true,
+
+  // Controls when the internal debug console should open.
+  "debug.internalConsoleOptions": "openOnFirstSessionStart",
+
+  // Executar comandos npm com a opção '--silent'.
+  "npm.runSilent": false,
+
+  // O modificador a ser usado para adicionar vários cursores com o mouse. Os gestos do mouse de Ir Para Definição e Abrir Link irão adaptar-se de forma que eles não entrem em conflito com o modificador multicursor. [Leia mais] (https://code.visualstudio.com/docs/editor/codebasics#_multicursor-modifier).
+  //  - ctrlCmd: Mapeia para 'Control' no Windows e Linux e para 'Command' no macOS.
+  //  - alt: Mapeia para 'Alt' em Windows e Linux e para 'Option' em macOS.
+  "editor.multiCursorModifier": "alt",
+
+  // Configuração experimental: Use a configuração de proxy do sistema.
+  //  - off: Não use a configuração de proxy do sistema.
+  //  - on: Use a configuração de proxy do sistema se não especificada nas opções da requisição.
+  //  - force: Sempre use a configuração de proxy do sistema.
+  "http.systemProxy": "off",
+
+  // O modificador a ser usado para adicionar um item nas listas e árvores para uma multi-seleção com o mouse (por exemplo, no explorer, editores abertos e exibição de scm). Os gestos do mouse 'Aberto para o lado' - se suportado - irão adaptar-se de tal forma que eles não entrem em conflito com o modificador de várias seleções.
+  //  - ctrlCmd: Mapeia para 'Control' no Windows e Linux e para 'Command' no macOS.
+  //  - alt: Mapeia para 'Alt' no Windows e Linux e 'Option' no macOS.
+  "workbench.list.multiSelectModifier": "ctrlCmd",
+
+ 
+}
