@@ -21,3 +21,9 @@ Usamos ela para definir a navegação do usuário. Se você tem um texto que voc
 É uma linguagem de estilo, isso quer dizer que ela tem as seguintes responsabilidades:
 
 -Visual;
+
+# Desafio Aula 04
+
+Ler os artigos do medium da collabcode.
+
+[Medium](https://medium.com/collabcode/pare-de-chutar-e-aprenda-as-propriedades-css-de-posicionamento-603154655121)
