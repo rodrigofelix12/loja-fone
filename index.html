@@ -4,41 +4,45 @@
         <title>Loja de Fone</title>
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/container-store.css">
         <link rel="stylesheet" href="css/header-store.css">
+        <link rel="stylesheet" href="css/photo-product.css">
+        <link rel="stylesheet" href="css/wrap-product.css">
+        <link rel="stylesheet" href="css/description-product.css">
         <link rel="stylesheet" href="css/button-store.css">
     </head>
 
     <body>
         <div class="container-store">
             <header class="header-store">
-                <h1 class="title">LOGO</h1> 
+                <h1 class="title">Logo</h1> 
                 
             <nav class="navigation">
-                    <a class="action" href="http://collabcode.training class="action"">Produtos</a class="action"> 
-                    <a class="action" href="http://collabcode.training class="action"">Serviços</a> 
-                    <a class="action last" href="http://collabcode.training">Carrinho (10)</a>
+                    <a class="action" href="http://collabcode.training class=">Produtos</a class="action"> 
+                    <a class="action" href="http://collabcode.training class=">Serviços</a> 
+                    <a class="action -last" href="http://collabcode.training">Carrinho (10)</a>
             </nav> 
             </header> 
 
-            <dl>
-                <dt>Fone top, feliz e caro</dt>
+            <figure class="photo-product"><img src="img/fone.png" alt="Fone de ouvido"></figure>
 
-                <dd>4.0 (97)</dd>
-                <dd>FRETE C$ 108</dd>
-                <dd>PREÇO C$ 340</dd>
-                <dd>Fone TOP com um cor feliz que não tem fio. A cor também é algo que impressiona junto com o  
-                    seu layout modernão! Ele é caro? É! Mas compre que você não vai se arrepender e se você se 
-                    arrepender pode vender no mercado livre..kkkk
-                </dd>
-                    <dd><a href="">Saber mais...</a></dd>
-                <dd>
-                    <button class="button-store -second">Adicionar ao carrinho</button>
-                </dd>
-                <dd>
-                    <a class="button-store" href="comprar.html">Comprar</a>
-                </dd>
-            </dl>
+            <section class="wrap-product">
+                <dl class="description-product">
+                    <dt class="title">Fone top, feliz e caro</dt>
+                    <dd class="item">4.0 (97)</dd>
+                    <dd class="item -info"><strong class="contrast">Frete</strong> C$ 108</dd>
+                    <dd class="item -info -last"><strong class="contrast">Preço</strong> C$ 340</dd>
+                    <dd class="text">Fone TOP com um cor feliz que não tem fio. A cor também é algo que impressiona junto com o  
+                        seu layout modernão! Ele é caro? É! Mas compre que você não vai se arrepender e se você se 
+                        arrepender pode vender no mercado livre..kkkk
+                    </dd>
+                        <dd class="text"><a href="" class="action">Saber mais...</a></dd>
+                </dl>
+            </section>
+            <button class="button-store -second">Adicionar ao carrinho</button>
+    
+            <a class="button-store" href="comprar.html">Comprar</a>
         </div>
     </body>
 </html>
